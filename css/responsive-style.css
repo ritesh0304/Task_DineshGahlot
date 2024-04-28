@@ -1,0 +1,53 @@
+
+@media (max-width: 891px) {
+
+    /* navbar brand */
+    .navigation-wrap .navbar-brand logo{
+        height:3.8125rem;
+    }
+    
+    .navigation-wrap{
+        text-align: center;
+        
+    }
+    
+    .navigation-wrap .nav-link{
+        color: black !important;
+        line-height: 1.875rem;
+    }
+
+
+    .about-section .text-sec{
+        background:var(--white-color) !important;
+        
+    }
+   
+}
+
+
+@media (max-width: 767px) {
+
+    .home .height {
+        height: 100vh;
+        flex-wrap: wrap;
+        display: flex;
+        width: 100%;
+
+    }
+
+    .carousel-caption h2{
+        font-size: 1.6em;
+        color: var(--white-color);
+        font-weight: bold;
+        padding-bottom: 2rem;
+    }
+   
+}
+
+@media only screen and (max-width:680px){
+    
+    .center_div img{
+        filter: grayscale(0) brightness(1) !important;
+    }
+}
+
